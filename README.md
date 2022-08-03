@@ -29,3 +29,41 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Testing
+- Cypress
+- RSpec
+
+## Screenshots
+
+![Home Page - Header](https://github.com/megsmcbride/Jungle-Rails/blob/master/docs/images/Header.png)
+```sh
+^Header of home page
+```
+
+![Home Page - Products](https://github.com/megsmcbride/Jungle-Rails/blob/master/docs/images/product-home-page.png)
+```sh
+^Products on home page
+```
+
+![Products - Sold out](https://github.com/megsmcbride/Jungle-Rails/blob/master/docs/images/soldout-badge.png)
+```sh
+^Sold out badge when product quantity is 0
+```
+
+![Cart](https://github.com/megsmcbride/Jungle-Rails/blob/master/docs/images/cart.png)
+```sh
+^Users cart
+```
+
+![Order](https://github.com/megsmcbride/Jungle-Rails/blob/master/docs/images/order.png)
+```sh
+^Users order
+```
+
+![Admin Page - Products](https://github.com/megsmcbride/Jungle-Rails/blob/master/docs/images/admin-product-page.png)
+```sh
+^Admin Products page
+```
+
+
